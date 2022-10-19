@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    <title>Contact</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Ubuntu';
+        }
+        h2 {
+            text-align: center;
+        }
+        nav a:hover{
+            color: red;
+        }
+        nav a{
+            text-decoration: none;
+            margin: 20px;
+            color: wheat;
+        }
+        nav {
+            text-align: center;
+            font-family: 'Ubuntu';
+            background-color: red;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        header {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        hr {
+            width: 1000px;
+        }
+        .name {
+            margin-left: 255px;
+        }
+        .lastname {
+            margin-left: 255px;
+        }
+        #lastname {
+            margin-left: 170px;
+        }
+        #name {
+            margin-left: 255px;
+        }
+        .email{
+            margin-left: 255px;
+        }
+        #email {
+            margin-left: 255px;
+        }
+        footer {
+            margin-top: 169px;
+            bottom: 0;
+            background-color: RED;
+            color: white ;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h3 {
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+        }
+        .copyright{
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" onclick="window.print()">Print CV</a>
+        <a href="kontak.html">Contact</a>
+        <a href="about.html">About</a>
+    </nav>
+    <hr />
+    <h1>CONTACT</h1>
+    <hr />
+    <header>
+        <h2>HUBUNGI AKU DENGAN CARA DI BAWAH INI</h2>
+        <form name="fkontak"action="proses.php" method="post">
+            <label class="name" for="name">Nama Depan : </label>
+            <label class="lastname" for="lastname">Nama Belakang : </label> 
+            <br /> 
+            <input type="text" id="name" placeholder="Masukkan Nama Depan">
+            <input type="text" name="name" id="lastname" placeholder="Masukkan Nama Belakang"> 
+            <br />
+            <label class="email" for="email">Email :</label> 
+            <br/>
+            <input id="email"type="email" placeholder="Masukkan Alamat Email">
+            <br />
+            <label for="pesan">Pesan Anda : </label>
+            <br />
+            <textarea name="message" id="pesan" cols="137" rows="7" placeholder="Masukkan Pesan Anda"></textarea>
+            <br />
+            <input type="submit" value="Kirim">
+    </form>
+    </header>
+    <footer>
+        <h3><li><a href="https://www.instagram.com/ipaankk.exe/">Ipaankk.exe</a></li>
+        </h3>
+        <p class="copyright">copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>

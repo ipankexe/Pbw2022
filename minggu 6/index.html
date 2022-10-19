@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    <title>My Website</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        img {
+            width: 15%;
+            border: solid;
+        }
+        nav a:hover{
+            color: white;
+        }
+        nav a{
+            text-decoration: none;
+            margin: 20px;
+            color: wheat;
+        }
+        nav {
+            text-align: center;
+            font-family: 'Ubuntu';
+            background-color: red;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        header {
+            text-align: center;
+            font-family: 'Rubik';
+        }
+        article {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        hr {
+            width: 1000px;
+        }
+        h2 {
+            text-align: center;
+        }
+        div {
+            margin: 3em auto;
+        }
+        table, th ,td{
+            border: 3px solid black;
+            border-collapse: collapse;
+            width: 1000px;
+        }
+        footer {
+            bottom: 0;
+            background-color: red;
+            color: white ;
+            width: 100%;
+        }
+        h3 {
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+        }
+        .copyright{
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" onclick="window.print()">Print CV</a>
+        <a href="kontak.html">Contact</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <hr />
+    <header>
+        <h1>Muhammad Irfan Setiawan</h1>
+        <img src="media/ipan.jpg" alt="fotodiri">
+        <p>Web Developer</p>
+    </header>
+    
+    <hr />
+
+    <article>
+        <h2>OVERVIEW</h2>
+        <p>Hai saya Irfan Berasal dari Pekalongan dan saya calon web developer masa depan,saya Mahasiswa UDINUS dan sedang mempelajari HTML 5. Berikut adalah beberapa kemampuan dan pengalaman saya selama 1 tahun terakhir.</p>
+    </article>
+    <div>
+        <table align="center">
+            <thead>
+                <tr>
+                    <th>Kemampuan</th>
+                    <th>Pengalaman</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Web Develompent (beginner)</li>
+                            <li>Mobile Development (beginner)</li>
+                            <li>Network Development (beginner)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Merancang sebuah website perusahaan</li>
+                            <li>Membuat aplikasi penunjang kehidupan masyarakat</li>
+                            <li>Memelihara sebuah jaringan di daerah</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <h3><li><a href="https://www.instagram.com/ipaankk.exe/">Ipaankk.exe</a></li></h3>
+        <p class="copyright">copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>

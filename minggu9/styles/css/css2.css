@@ -1,0 +1,64 @@
+body {
+  background: black;
+  font-family: roboto;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+.ketengah {
+  margin: 10px auto;
+  width: 1150px;
+}
+
+.kotak {
+  background: black;
+  width: 500px;
+  float: left;
+  height: 250px;
+  margin: 30px;
+}
+
+.gradient1 {
+  background: linear-gradient(yellow, blue); /* Standard syntax */
+  background: -webkit-linear-gradient(yellow, blue); /* For Safari 5.1 to 
+   6.0 */
+  background: -o-linear-gradient(yellow, blue); /* For Opera 11.1 to 12.0 
+   */
+  background: -moz-linear-gradient(yellow, blue); /* For Firefox 3.6 to 15 
+   */
+}
+
+.gradient2 {
+  background: linear-gradient(to right, blue, yellow, green); /* Standard 
+   syntax */
+  background: -webkit-linear-gradient(left, blue, yellow, green); /* For 
+   Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, blue, yellow, green); /* For Opera 
+   11.1 to 12.0 */
+  background: -moz-linear-gradient(right, blue, yellow, green); /* For 
+   Firefox 3.6 to 15 */
+}
+
+.gradient3 {
+  background: radial-gradient(blue, yellow, green); /* Standard syntax */
+  background: -webkit-radial-gradient(blue, yellow, green); /* Safari 5.1 
+   to 6.0 */
+  background: -o-radial-gradient(blue, yellow, green); /* For Opera 11.6 
+   to 12.0 */
+  background: -moz-radial-gradient(blue, yellow, green); /* For Firefox 
+   3.6 to 15 */
+}
+
+.gradient4 {
+  background: radial-gradient(circle, blue, yellow, green); /* Standard 
+   syntax */
+  background: -webkit-radial-gradient(circle, blue, yellow, green); /* 
+   Safari */
+  background: -o-radial-gradient(circle, blue, yellow, green); /* Opera 
+   11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, blue, yellow, green); /* 
+   Firefox 3.6 to 15 */
+}
